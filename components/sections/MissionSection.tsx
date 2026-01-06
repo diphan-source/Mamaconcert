@@ -94,9 +94,10 @@ const MissionSection = () => {
               fontWeight: 900,
               color: 'white',
               textTransform: 'uppercase',
-              mb: 3,
+              mb: 0, // raw.html has margin:0
               lineHeight: 1,
               textShadow: '0 2px 8px rgba(0,0,0,0.66), 0 0.5px 1px rgba(0,0,0,0.25)',
+              willChange: 'transform',
             }}
           >
             ONE HEART,
@@ -109,11 +110,14 @@ const MissionSection = () => {
           {/* Description */}
           <Typography
             sx={{
-              fontSize: { xs: '1rem', md: '1.2rem' },
+              fontSize: 'clamp(1rem, 2.5vw, 1.2rem)',
+              fontFamily: 'var(--font-inter)', // Assuming this var exists or will fall back
               color: 'white',
+              mt: '24px',
               mb: 6,
               lineHeight: 1.6,
               maxWidth: '500px',
+              textAlign: 'inherit',
               textShadow: '0 2px 8px rgba(0,0,0,0.66), 0 0.5px 1px rgba(0,0,0,0.25)',
             }}
           >
@@ -130,6 +134,7 @@ const MissionSection = () => {
               variant="contained"
               size="large"
               onClick={handleGetTicket}
+              data-testid="tf-v1-popup"
               sx={{
                 px: 5,
                 py: 2,
@@ -151,6 +156,7 @@ const MissionSection = () => {
               variant="outlined"
               size="large"
               onClick={handleInviteFriend}
+              data-testid="tf-v1-popup"
               sx={{
                 px: 5,
                 py: 2,
