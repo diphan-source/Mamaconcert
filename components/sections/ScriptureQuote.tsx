@@ -94,7 +94,7 @@ const ScriptureQuoteBackground = () => {
     <Box
       sx={{
         py: { xs: 8, md: 12 },
-        backgroundImage: "url('images/event-img/img9.jpeg')", // Replace with your image path
+        backgroundImage: "url('images/event-img/img1.jpeg')", // Replace with your image path
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
@@ -107,7 +107,7 @@ const ScriptureQuoteBackground = () => {
             backgroundImage: "rgba(255,255,255,0.9)", // bring it in front of the background image make it more opaque leave it as white
             borderRadius: 2,
             p: { xs: 3, md: 5 },
-            boxShadow: "0 10px 30px rgba(0,0,0,0.08)",
+            boxShadow: "0 10px 30px rgba(255,255,255,0.5)", // white box shadow for contrast with background image
             textAlign: "center",
           }}
         >
