@@ -1,5 +1,4 @@
-// "use client";
-
+"use client";
 import React, { useRef, useState } from "react";
 import { motion, useInView } from "framer-motion";
 import { FaBus, FaDownload } from "react-icons/fa";
