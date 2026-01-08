@@ -149,7 +149,7 @@ const MissionSection = () => {
                 },
               }}
             >
-              GET YOUR FREE TICKET
+              GET YOUR TICKET NOW
             </Button>
             <Button
               variant="outlined"

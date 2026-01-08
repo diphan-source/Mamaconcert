@@ -60,8 +60,8 @@ export const FEATURED_ARTISTS = [
 
 // Event Features
 export const EVENT_FEATURES = [
-  { id: 1, text: "Free Admission", icon: "ticket" },
-  { id: 2, text: "Free Shuttle Routes", icon: "bus" },
+  { id: 1, text: "Get Your Ticket Now", icon: "ticket" },
+  { id: 2, text: "Shared Cars", icon: "bus" },
   { id: 3, text: "Kids & Family Seating", icon: "users" },
   { id: 4, text: "Livestream Access", icon: "video" },
   { id: 5, text: "Doors Open 6 PM", icon: "clock" },

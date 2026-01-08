@@ -68,7 +68,7 @@ const CommunitySection = () => {
                 variant="primary"
                 size="lg"
               >
-                Grab Your Free Seat
+                Grab Your Seat Now
               </Button>
             </motion.div>
           </Grid>

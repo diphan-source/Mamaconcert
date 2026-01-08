@@ -118,7 +118,7 @@ const FinalCTA = () => {
                 // Wait, Button.tsx is a custom component, I should check it too. But for now I will pass className if it supports it, or better, if I refactored Button I should check.
                 // Actually I haven't checked Button.tsx. It's likely using Tailwind.
                 >
-                  Get Your Free Ticket
+                  Get Your Ticket Now
                 </Button>
                 <Button
                   onClick={handleAddToCalendar}

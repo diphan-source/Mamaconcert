@@ -43,7 +43,7 @@ const ArtistsSection = () => {
               letterSpacing: '0.05em',
             }}
           >
-            ALL RAISING VOICES TO JESUS
+            ALL WORSHIP &nbsp; PRAISES GO TO JESUS
           </Typography>
         </Box>
 
