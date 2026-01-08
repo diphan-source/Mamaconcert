@@ -177,7 +177,7 @@ const TransportationSection = () => {
 
 export default TransportationSection;
 
-"use client";
+
 
 // import React, { useRef, useState } from "react";
 // import { motion, useInView } from "framer-motion";
@@ -311,7 +311,6 @@ export default TransportationSection;
 // };
 
 // export default TransportationSection;
-"use client";
 
 // import React, { useRef, useState } from "react";
 // import { motion, useInView } from "framer-motion";
