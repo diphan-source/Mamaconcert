@@ -49,7 +49,7 @@ const ScriptureQuote = () => {
               overflow: 'hidden',
             }}
           >
-            <Box
+            {/* <Box
               sx={{
                 position: 'absolute',
                 top: 0,
@@ -67,7 +67,27 @@ const ScriptureQuote = () => {
                 light="images/event-img/img3.jpeg"
                 onClickPreview={() => setPlaying(true)}
               />
-            </Box>
+            </Box> */}
+            <Box
+  sx={{
+    position: "relative",
+    paddingTop: "56.25%", // 16:9
+    borderRadius: 2,
+    overflow: "hidden",
+  }}
+>
+  <ReactPlayer
+    url="https://www.youtube.com/watch?v=MwjAV_iykoE"
+    width="100%"
+    height="100%"
+    light="/images/event-img/img3.jpeg"
+    controls
+    style={{ position: "absolute", top: 0, left: 0 }}
+    playing={playing}
+    onClickPreview={() => setPlaying(true)}
+  />
+</Box>
+
           </Box>
         </Box>
 

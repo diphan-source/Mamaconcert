@@ -43,7 +43,7 @@ const MissionSection = () => {
         >
           <Image
             src="images/event-img/img15.jpeg"
-            alt="Open Heaven Crowd"
+            alt="Mama Concert Crowd Desktop"
             fill
             style={{ objectFit: 'cover' }}
             priority
@@ -102,9 +102,9 @@ const MissionSection = () => {
           >
             ONE GOD,
             <br />
-            ONE WORSHIP,
+            ONE ALTAR,
             <br />
-            ONE GOD
+            ONE PRAISE
           </Typography>
 
           {/* Description */}

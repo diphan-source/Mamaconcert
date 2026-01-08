@@ -64,8 +64,30 @@ const Footer = () => {
               {EVENT_INFO.contact.email}
             </a>
           </Typography>
-
           <Button
+  component="a"
+  href="https://form.typeform.com/to/Ij072pJa?typeform-source=helicon-dinosaur-2nx4.squarespace.com"
+  target="_blank"
+  rel="noopener noreferrer"
+  variant="contained"
+  size="large"
+  sx={{
+    backgroundColor: "white",
+    color: "black",
+    fontWeight: 700,
+    px: 4,
+    py: 1.5,
+    borderRadius: "50px",
+    "&:hover": {
+      backgroundColor: "#b8860b",
+    },
+  }}
+>
+  Register
+</Button>
+
+
+          {/* <Button
             variant="contained"
             size="large"
             sx={{
@@ -76,12 +98,12 @@ const Footer = () => {
               py: 1.5,
               borderRadius: '50px',
               '&:hover': {
-                backgroundColor: '#f3f4f6',
+                backgroundColor: '#b8860b',
               },
             }}
           >
             Register
-          </Button>
+          </Button> */}
         </Box>
 
         {/* Links Section */}
