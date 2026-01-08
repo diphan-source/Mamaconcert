@@ -104,7 +104,7 @@ const ScriptureQuoteBackground = () => {
       <Container maxWidth="md">
         <Box
           sx={{
-            backgroundImage: "rgba(255,255,255,0.9)", // Semi-transparent for readability
+            backgroundImage: "rgba(255,255,255,0.9)", // bring it in front of the background image make it more opaque leave it as white
             borderRadius: 2,
             p: { xs: 3, md: 5 },
             boxShadow: "0 10px 30px rgba(0,0,0,0.08)",
@@ -116,7 +116,7 @@ const ScriptureQuoteBackground = () => {
             sx={{
               fontSize: { xs: "1.5rem", md: "2rem" },
               fontWeight: 700,
-              color: "#111827",
+              color: "#ffffff", // White text for contrast
               mb: 3,
             }}
           >
