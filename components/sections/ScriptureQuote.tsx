@@ -109,6 +109,8 @@ const ScriptureQuoteBackground = () => {
             p: { xs: 3, md: 5 },
             boxShadow: "0 10px 30px rgba(255,255,255,0.5)", // white box shadow for contrast with background image
             textAlign: "center",
+            maxWidth: { xs: "90%", md: "80%" }, // occupy more width
+            margin: "0 auto", // center horizontally
           }}
         >
           {/* Heading */}
@@ -128,7 +130,7 @@ const ScriptureQuoteBackground = () => {
             component="p"
             sx={{
               fontSize: { xs: "1.05rem", md: "1.15rem" },
-              color: "#1f2937",
+              color: "#ffffff", // White text for contrast readability
               lineHeight: 1.9,
               textAlign: "left",
               mb: 4,
@@ -158,7 +160,7 @@ const ScriptureQuoteBackground = () => {
           <Typography
             sx={{
               fontSize: "1rem",
-              color: "#6b7280",
+              color: "#ffffff", // white text for contrast
               fontWeight: 600,
               textAlign: "right",
             }}
