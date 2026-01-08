@@ -77,7 +77,7 @@ const ScriptureQuote = () => {
   }}
 >
   <ReactPlayer
-    url="https://www.youtube.com/watch?v=MwjAV_iykoE"
+    url="https://www.youtube.com/watch?v=MwjAV_iykoE&list=RDEM7xhpI8RgQFXJCUoMy2aEzA&start_radio=1"
     width="100%"
     height="100%"
     light="images/event-img/img3.jpeg"
