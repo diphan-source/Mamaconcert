@@ -80,7 +80,7 @@ const ScriptureQuote = () => {
     url="https://www.youtube.com/watch?v=MwjAV_iykoE"
     width="100%"
     height="100%"
-    light="/images/event-img/img3.jpeg"
+    light="images/event-img/img3.jpeg"
     controls
     style={{ position: "absolute", top: 0, left: 0 }}
     playing={playing}
@@ -127,8 +127,8 @@ const ScriptureQuote = () => {
             </Box>{' '}
             Finally, my brethren, be strong in the Lord, and in the power of his might.
            Put on the whole armour of God, that ye may be able to stand against the wiles of the devil.
-            For we wrestle not against flesh and blood, but against principalities, against powers, against the rulers of the darkness of this world, against spiritual wickedness in high places. Wherefore take unto you the whole armour of God, that ye may be able to withstand in the evil day, and having done all, to stand. Stand therefore, having your loins girt about with truth, and having on the breastplate of righteousness; and your feet shod with the preparation of the gospel of peace; above all, taking the shield of faith, wherewith ye shall be able to quench all the fiery darts of the wicked; and take the helmet of salvation, and the sword of the Spirit, which is the word of God: praying always with all prayer and supplication in the Spirit, and watching thereunto with all perseverance and supplication for all saints; and for me, that utterance may be given unto me, that I may open my mouth boldly, to make known the mystery of the gospel, for which I am an ambassador in bonds: that therein I may speak boldly, as I ought to speak.
-
+            For we wrestle not against flesh and blood, but against principalities, against powers, against the rulers of the darkness of this world, against spiritual wickedness in high places. Wherefore take unto you the whole armour of God, that ye may be able to withstand in the evil day, and having done all, to stand. Stand therefore, having your loins girt about with truth, and having on the breastplate of righteousness; and your feet shod with the preparation of the gospel of peace; above all, taking the shield of faith, wherewith ye shall be able to quench all the fiery darts of the wicked; and take the helmet of salvation, and the sword of the Spirit, which is the word of God: praying always with all prayer and supplication in the Spirit, and watching thereunto with all perseverance and supplication for all saints; and for me, that utterance may be given unto me, that I may open my mouth boldly, to make known the mystery of the gospel, for which I am an ambassador in bonds: that therein I may speak boldly, 
+            as I ought to speak.
           </Typography>
           <Typography
             component="cite"

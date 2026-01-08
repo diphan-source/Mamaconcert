@@ -44,7 +44,7 @@ const SocialSharingSection = () => {
               lineHeight: 1.7,
             }}
           >
-            Help us revive the city through worship! Share our event poster on your social media and invite your friends to experience an unforgettable night of praise and connection.
+            Let’s impact the community together through worship! Share our event poster online and invite your friends for a memorable Evening of praise, community, and powerful encounters.
           </Typography>
 
           {/* CTA Buttons */}
@@ -73,7 +73,7 @@ const SocialSharingSection = () => {
                 },
               }}
             >
-              Worship in THE CITY
+              PRAISE in THE TOWN
             </Button>
             <Button
               variant="outlined"

@@ -97,7 +97,7 @@ const GallerySection = () => {
           sx={{
             fontSize: { xs: '1.25rem', md: '1.75rem', lg: '2.25rem' },
             fontWeight: 700,
-            color: '#a78bfa',
+            color: '#b8860b',// dark golden
             textTransform: 'uppercase',
             letterSpacing: '0.1em',
           }}
