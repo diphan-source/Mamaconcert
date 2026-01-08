@@ -127,7 +127,7 @@ const Footer = () => {
                 </Typography>
                 <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1 }}>
                     <a href="#" style={{ color: '#9ca3af', textDecoration: 'none' }}>Get Involved</a>
-                    <a href="#" style={{ color: '#9ca3af', textDecoration: 'none' }}>Get Your Free Ticket</a>
+                    <a href="#" style={{ color: '#9ca3af', textDecoration: 'none' }}>Get Your Ticket Now</a>
                 </Box>
             </Grid>
 

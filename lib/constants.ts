@@ -149,7 +149,7 @@ export const JOINED_MOVEMENT = [
 export const FAQ_DATA = [
   {
     id: 1,
-    question: "what Is the free for the Concert?",
+    question: "what Is the fee for the Concert?",
     answer:
       "its just CAD $100 per ticket. However, we encourage attendees to register in advance as tickets are limited and available on a first-come, first-served basis.",
   },
