@@ -11,7 +11,7 @@ const MissionSection = () => {
   };
 
   const handleInviteFriend = () => {
-    const message = `Join me at Open Heavens Toronto 2025! A FREE New Year's Eve Gospel Concert on December 31st. Register for your free ticket at ${EVENT_INFO.ticketUrl}`;
+    const message = `Join Us at MAMA CONCERT 2026 At A  FREE of CAD $100 on November 28th. Register for your free ticket at ${EVENT_INFO.ticketUrl}`;
     const url = `https://wa.me/?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank', 'width=600,height=400');
   };

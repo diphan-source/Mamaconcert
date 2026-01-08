@@ -36,7 +36,7 @@ const GallerySection = () => {
           top: 0,
           left: 0,
           width: '100%',
-          height: '50%',
+          height: '70%',
           background: 'linear-gradient(180deg, #7c3aed 0%, transparent 100%)',
           opacity: 0.1,
         }}
@@ -102,7 +102,7 @@ const GallerySection = () => {
             letterSpacing: '0.1em',
           }}
         >
-          OPEN HEAVENS 2025
+          MAMA CONCERT 2026
         </Typography>
       </Box>
 
