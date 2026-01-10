@@ -46,7 +46,7 @@ const HamburgerIcon = () => (
   </div>
 );
 
-constHeader = () => {
+const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
