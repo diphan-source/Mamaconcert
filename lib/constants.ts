@@ -2,7 +2,7 @@
 export const EVENT_INFO = {
   title: "MAMA CONCERT 2026",
   subtitle: "Join us for an unforgettable worship!",
-  date: "November 28, 2026",
+  date: "November 21, 2026",
   year: 2026,
   venue: {
     name: "Metro Convention Centre",
@@ -15,7 +15,7 @@ export const EVENT_INFO = {
     eventStart: "7:00 PM",
   },
   contact: {
-    phone: "(437) 624-7653",
+    phone: "(437) 232-4417 / (437)388-6384",
     email: "info@mamaconcert.com",
   },
   ticketUrl: "https://form.typeform.com/to/Ij072pJa?typeform-source=helicon-dinosaur-2nx4.squarespace.com",
@@ -214,9 +214,9 @@ export const SOCIAL_LINKS = {
 // Navigation Links
 export const NAV_LINKS = [
   { id: 1, label: "Home", href: "/" },
-  { id: 2, label: "Artists", href: "#artists" },
+  { id: 2, label: "Artists", href: "/ArtistsSection" },
   { id: 3, label: "Schedule", href: "#schedule" },
-  { id: 4, label: "Transportation", href: "#transportation" },
+  { id: 4, label: "Transportation", href: "/TransportationSection" },
   { id: 5, label: "Get Tickets", href: EVENT_INFO.ticketUrl, external: true },
   { id: 6, label: "Volunteer", href: "#volunteer" },
 ];
@@ -234,7 +234,7 @@ export const FOOTER_SECTIONS = [
     id: 2,
     title: "More Info",
     links: [
-      { id: 1, label: "FAQs", href: "#faq" },
+      { id: 1, label: "FAQs", href: "/" },
       { id: 2, label: "Share Event", href: "#share" },
       { id: 3, label: "Contact Us", href: "#contact" },
     ],
