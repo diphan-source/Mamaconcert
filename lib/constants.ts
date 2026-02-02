@@ -5,10 +5,10 @@ export const EVENT_INFO = {
   date: "November 21, 2026",
   year: 2026,
   venue: {
-    name: "Metro Convention Centre",
-    address: "255 Front St W, Toronto, ON M5V 2W6",
-    fullAddress: "255 Front St W, Toronto, ON M5V 2W6",
-    googleMapsUrl: "https://maps.google.com/?q=255+Front+St+W,+Toronto,+ON+M5V+2W6",
+    name: "Toronto Pavilion",
+    address: "190 Railside Rd, North York, ON M3A 1A3",
+    fullAddress: "190 Railside Rd, North York, ON M3A 1A3",
+    googleMapsUrl: "https://www.bing.com/ck/a?!&&p=11497434e0c5ac8770486b5e03f130d21680a4b1a1d6a2214bfbbec29d505226JmltdHM9MTc2OTk5MDQwMA&ptn=3&ver=2&hsh=4&fclid=02b60778-e714-6df1-2524-113ce6d16c9b&u=a1L21hcHM_Jm1lcGk9NTd-TWFwc0Fuc3dlcn5FbWJlZGRlZH5EaXJlY3Rpb25fQnV0dG9uJnR5PTAmcnRwPXBvcy40My42NDcxODI0NjQ1OTk2MV8tNzkuMzgyODIwMTI5Mzk0NTNfX1Rvcm9udG8lMkMlMjBPbnRhcmlvJTIwTTVLX19zX35wb3MuNDMuNzM5NDVfLTc5LjMyNDMwMV9fMTkwJTIwUmFpbHNpZGUlMjBSZCUyQyUyME5vcnRoJTIwWW9yayUyQyUyME9OJTIwTTNBJTIwMUEzX19lXyZtb2RlPWQmdj0yJnNWPTE",
   },
   timing: {
     doorsOpen: "6:00 PM",
@@ -169,7 +169,7 @@ export const FAQ_DATA = [
     id: 4,
     question: "Is parking available?",
     answer:
-      "Yes, parking is available at Metro Toronto Convention Centre. However, spaces are limited"
+      "Yes, parking is available at Toronto Pavilion. However, spaces are limited"
     },
   {
     id: 5,
@@ -187,7 +187,7 @@ export const FAQ_DATA = [
     id: 7,
     question: "Can I watch online if I can't attend in person?",
     answer:
-      "Yes! The event will be livestreamed on our YouTube channel. Visit youtube.com/mamaconcert/live on 28th November to join us virtually from anywhere in the world.",
+      "Yes! The event will be livestreamed on our YouTube channel. Visit youtube.com/mamaconcert/live on 21st November to join us virtually from anywhere in the world.",
   },
   {
     id: 8,
@@ -214,9 +214,9 @@ export const SOCIAL_LINKS = {
 // Navigation Links
 export const NAV_LINKS = [
   { id: 1, label: "Home", href: "/" },
-  { id: 2, label: "Artists", href: "/ArtistsSection" },
+  { id: 2, label: "Artists", href: "#ArtistsSection" },
   { id: 3, label: "Schedule", href: "#schedule" },
-  { id: 4, label: "Transportation", href: "/TransportationSection" },
+  { id: 4, label: "Transportation", href: "#TransportationSection" },
   { id: 5, label: "Get Tickets", href: EVENT_INFO.ticketUrl, external: true },
   { id: 6, label: "Volunteer", href: "#volunteer" },
 ];
