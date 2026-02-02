@@ -58,7 +58,7 @@ const ScriptureQuote = () => {
             }}
           >
             <ReactPlayer
-              url={'https://www.youtube.com/watch?v=L0ZhSMAzYr8'}
+              src={'https://www.youtube.com/watch?v=L0ZhSMAzYr8'}
               width={'100%'}
               height={'100%'}
               playing={isPlaying}
