@@ -15,13 +15,14 @@ const VolunteerSection = () => {
       ref={ref}
       sx={{
         py: { xs: 10, md: 16 },
-        bgcolor: '#111827', // gray-900
         position: 'relative',
         overflow: 'hidden',
+        backgroundImage: 'url(/images/hero/hero_bg.png)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
       }}
     >
-      {/* Background Effects */}
-      <Box sx={{ position: 'absolute', inset: 0, background: 'linear-gradient(to bottom, rgba(30, 27, 75, 0.4), transparent)' }} /> {/* primary-900/40 */}
 
       <Container maxWidth="lg" sx={{ position: 'relative', zIndex: 10 }}>
         <motion.div
@@ -42,7 +43,7 @@ const VolunteerSection = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
             >
                 <Typography sx={{ fontSize: { xs: '1.125rem', md: '1.25rem' }, color: '#d1d5db', mb: 6, lineHeight: 1.625 }}>
-                Experience the joy of serving in God’s presence—join us and make a difference! Whether you enjoy greeting people, preparing spaces, or supporting behind the scenes, every contribution helps foster a welcoming and uplifting environment. Get involved, serve, and discover how rewarding it can be.
+                There's nothing like serving in God's presence—come be a part of something meaningful! Whether you love welcoming guests, setting up, or helping behind the scenes, every role helps create an atmosphere of worship and joy. Step in, serve, and discover the best feeling ever.
                 </Typography>
             </motion.div>
 
@@ -57,6 +58,7 @@ const VolunteerSection = () => {
                 external
                 variant="primary"
                 size="lg"
+                data-testid="tf-v1-popup"
               >
                 Volunteer With Us
               </Button>
