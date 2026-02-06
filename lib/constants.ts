@@ -11,15 +11,15 @@ export const EVENT_INFO = {
     googleMapsUrl: "https://www.bing.com/ck/a?!&&p=11497434e0c5ac8770486b5e03f130d21680a4b1a1d6a2214bfbbec29d505226JmltdHM9MTc2OTk5MDQwMA&ptn=3&ver=2&hsh=4&fclid=02b60778-e714-6df1-2524-113ce6d16c9b&u=a1L21hcHM_Jm1lcGk9NTd-TWFwc0Fuc3dlcn5FbWJlZGRlZH5EaXJlY3Rpb25fQnV0dG9uJnR5PTAmcnRwPXBvcy40My42NDcxODI0NjQ1OTk2MV8tNzkuMzgyODIwMTI5Mzk0NTNfX1Rvcm9udG8lMkMlMjBPbnRhcmlvJTIwTTVLX19zX35wb3MuNDMuNzM5NDVfLTc5LjMyNDMwMV9fMTkwJTIwUmFpbHNpZGUlMjBSZCUyQyUyME5vcnRoJTIwWW9yayUyQyUyME9OJTIwTTNBJTIwMUEzX19lXyZtb2RlPWQmdj0yJnNWPTE",
   },
   timing: {
-    doorsOpen: "6:00 PM",
-    eventStart: "7:00 PM",
+    doorsOpen: "5:00 PM",
+    eventStart: "6:00 PM",
   },
   contact: {
-    phone: "(437) 232-4417 / (437)388-6384",
+    phone: "(437) 499-2450 /(437) 232-4417 / (437) 388-6384",
     email: "info@mamaconcert.com",
   },
   ticketUrl: "https://form.typeform.com/to/Ij072pJa?typeform-source=helicon-dinosaur-2nx4.squarespace.com",
-  livestreamUrl: "https://youtube.com/hopraise/live",
+  livestreamUrl: "https://www.youtube.com/channel/UCLNfXxRxgiP5y7mAqi4ZuGQ",
 };
 
 // Featured Artists
@@ -64,7 +64,7 @@ export const EVENT_FEATURES = [
   { id: 2, text: "Shared Cars", icon: "bus" },
   { id: 3, text: "Kids & Family Seating", icon: "users" },
   { id: 4, text: "Livestream Access", icon: "video" },
-  { id: 5, text: "Doors Open 6 PM", icon: "clock" },
+  { id: 5, text: "Doors Open 5 PM", icon: "clock" },
 ];
 
 // Shuttle Routes
@@ -205,7 +205,7 @@ export const FAQ_DATA = [
 
 // Social Media Links
 export const SOCIAL_LINKS = {
-  youtube: "https://youtube.com/mamaconcert",
+  youtube: "https://www.youtube.com/channel/UCLNfXxRxgiP5y7mAqi4ZuGQ",
   twitter: "https://twitter.com/victoryintchurch",
   facebook: "https://facebook.com/victoryintchurchcanada",
   instagram: "https://instagram.com/victoryintchurchcanada",
