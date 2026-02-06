@@ -107,9 +107,9 @@ const Banner = () => {
             <br />
             {EVENT_INFO.venue.address.toUpperCase()}
             <br />
-            
+              {EVENT_INFO.venue.slogan.toUpperCase()}
           </Box>
-                   <Box
+                   {/* <Box
             component="span"
             sx={{
               display: "block",
@@ -120,8 +120,8 @@ const Banner = () => {
               letterSpacing: "0.05em",
             }}
           >
-            {EVENT_INFO.venue.slogan.toUpperCase()}
-          </Box>
+          
+          </Box> */}
         </Box>
 
         {/* CTA Button */}
