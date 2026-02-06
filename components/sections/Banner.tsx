@@ -106,6 +106,21 @@ const Banner = () => {
             {EVENT_INFO.venue.name.toUpperCase()}
             <br />
             {EVENT_INFO.venue.address.toUpperCase()}
+            <br />
+            
+          </Box>
+                   <Box
+            component="span"
+            sx={{
+              display: "block",
+              mt: 0.5,
+              fontSize: { xs: "0.75rem", md: "0.85rem" },
+              fontWeight: 400,
+              opacity: 0.85,
+              letterSpacing: "0.05em",
+            }}
+          >
+            {EVENT_INFO.slogan.toUpperCase()}
           </Box>
         </Box>
 
