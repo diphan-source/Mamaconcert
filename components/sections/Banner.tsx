@@ -120,7 +120,7 @@ const Banner = () => {
               letterSpacing: "0.05em",
             }}
           >
-            {EVENT_INFO.slogan.toUpperCase()}
+            {EVENT_INFO.venue.slogan.toUpperCase()}
           </Box>
         </Box>
 
