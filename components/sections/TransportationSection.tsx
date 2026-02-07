@@ -86,13 +86,13 @@
 "use client";
 
 import React, { useRef } from "react";
-import Grid from "@mui/material/Grid";
 import { motion, useInView } from "framer-motion";
 import {
   Box,
   Typography,
   Container,
   Button,
+  Grid,
   Paper,
 } from "@mui/material";
 
