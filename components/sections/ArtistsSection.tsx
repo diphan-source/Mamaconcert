@@ -38,6 +38,7 @@ const ArtistsSection = () => {
             component="h3"
             sx={{
               fontSize: { xs: '1.25rem', md: '1.5rem' },
+               fontFamily: "'Dancing Script', cursive",
               color: '#9CA3AF',
               fontWeight: 600,
               textTransform: 'uppercase',
