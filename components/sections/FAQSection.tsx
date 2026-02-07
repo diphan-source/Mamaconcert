@@ -51,7 +51,7 @@ const FAQSection = () => {
             </Typography>
             <Box
               component="a"
-              href="mailto:openheavens@houseofpraise.ca"
+              href="mailto:judithbabiryefoundation@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
               sx={{
@@ -99,7 +99,7 @@ const FAQSection = () => {
           <Box sx={{ textAlign: 'center' }}>
             <Box
               component="a"
-              href="mailto:openheavens@houseofpraise.ca"
+              href="mailto:judithbabiryefoundation@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
               sx={{
