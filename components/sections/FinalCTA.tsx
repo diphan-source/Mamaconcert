@@ -139,7 +139,7 @@ const FinalCTA = () => {
               transition={{ duration: 0.8, delay: 0.6 }}
             >
               <Typography sx={{ mt: 6, color: '#b8860b', fontSize: '1.125rem' }}>
-                CAD $100 &nbsp; • &nbsp; Family-Friendly &nbsp; • &nbsp; Free Parking Available
+                CAD $100 &nbsp; • &nbsp; Family-Friendly &nbsp; • &nbsp; Free Parking Available • &nbsp; DressCode: Red &amp; White
               </Typography>
             </motion.div>
           </Box>
