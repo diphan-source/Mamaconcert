@@ -130,6 +130,7 @@ const ScriptureQuote = () => {
           <Box
             component="span"
             sx={{
+               fontFamily: "'Dancing Script', cursive",
               fontSize: { xs: '1rem', md: '1.1rem' },
               color: '#9CA3AF',
               fontWeight: 600,
