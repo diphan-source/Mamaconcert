@@ -7,7 +7,6 @@ export const EVENT_INFO = {
   venue: {
     name: "Toronto Pavilion",
     address: "190 Railside Rd, North York, ON M3A 1A3",
-    slogan: "Nothing Lasts Like A Mother's Love.",
     fullAddress: "190 Railside Rd, North York, ON M3A 1A3",
     googleMapsUrl: "https://www.bing.com/ck/a?!&&p=11497434e0c5ac8770486b5e03f130d21680a4b1a1d6a2214bfbbec29d505226JmltdHM9MTc2OTk5MDQwMA&ptn=3&ver=2&hsh=4&fclid=02b60778-e714-6df1-2524-113ce6d16c9b&u=a1L21hcHM_Jm1lcGk9NTd-TWFwc0Fuc3dlcn5FbWJlZGRlZH5EaXJlY3Rpb25fQnV0dG9uJnR5PTAmcnRwPXBvcy40My42NDcxODI0NjQ1OTk2MV8tNzkuMzgyODIwMTI5Mzk0NTNfX1Rvcm9udG8lMkMlMjBPbnRhcmlvJTIwTTVLX19zX35wb3MuNDMuNzM5NDVfLTc5LjMyNDMwMV9fMTkwJTIwUmFpbHNpZGUlMjBSZCUyQyUyME5vcnRoJTIwWW9yayUyQyUyME9OJTIwTTNBJTIwMUEzX19lXyZtb2RlPWQmdj0yJnNWPTE",
   },
