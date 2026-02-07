@@ -86,7 +86,7 @@
 "use client";
 
 import React, { useRef } from "react";
-import Grid from "@mui/material/Grid2";
+import Grid from "@mui/material/Unstable_Grid2";
 import { motion, useInView } from "framer-motion";
 import {
   Box,
@@ -175,7 +175,7 @@ const TransportationSection = () => {
               For More Information or Table Booking
             </Typography>
 
-   <Grid container spacing={4}>
+ <Grid container spacing={4}>
   <Grid xs={12} md={4}>
     <Paper elevation={3} sx={{ p: 4, textAlign: "center", borderRadius: 3 }}>
       <Typography variant="h6" fontWeight={700}>
