@@ -87,6 +87,8 @@
 
 import React, { useRef } from "react";
 import { motion, useInView } from "framer-motion";
+import GridLegacy from "@mui/material/GridLegacy";
+import { GridLegacy as Grid } from "@mui/material";
 import {
   Box,
   Typography,
