@@ -93,12 +93,14 @@ const HeroSection = () => {
               sx={{
                 fontWeight: 550,
                 fontSize: { xs: '0.8rem', md: '1.1rem' },
-                lineHeight: 1.4,
+                lineHeight: 2,
                 textShadow: '0 2px 4px rgba(0,0,0,0.6)',
               }}
             >
               Nothing Lasts Like A Mother's Love
             </Typography>
+          <br />
+          {/*  */}
 
           {/* Venue */}
           <MuiLink
