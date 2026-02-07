@@ -132,7 +132,7 @@ const TransportationSection = () => {
                 lineHeight: 1.2,
               }}
             >
-              BOOK A TABLE <br /> NOW
+              BOOK A TABLE 
             </Typography>
 
             <Typography
@@ -188,16 +188,16 @@ const TransportationSection = () => {
       }}
     >
       <Typography variant="h6" sx={{ fontWeight: 700, mb: 1 }}>
-        Sarah Johnson
+        Denis 
       </Typography>
       <Typography sx={{ color: "text.secondary", mb: 1 }}>
         Table Reservations
       </Typography>
       <Typography sx={{ fontWeight: 600 }}>
-        📞 +1 (416) 555-1234
+        📞 +1 (437) 499-2450
       </Typography>
       <Typography sx={{ fontWeight: 600 }}>
-        ✉️ sarah@example.com
+        ✉️ reservations@mamaconcert.com
       </Typography>
     </Paper>
   </Grid>
@@ -214,16 +214,16 @@ const TransportationSection = () => {
       }}
     >
       <Typography variant="h6" sx={{ fontWeight: 700, mb: 1 }}>
-        Michael Brown
+        Doreen Kahunde
       </Typography>
       <Typography sx={{ color: "text.secondary", mb: 1 }}>
         VIP & Group Bookings
       </Typography>
       <Typography sx={{ fontWeight: 600 }}>
-        📞 +1 (647) 555-5678
+        📞 +1 (437) 388-6384
       </Typography>
       <Typography sx={{ fontWeight: 600 }}>
-        ✉️ michael@example.com
+        ✉️ Reservations@mamaconcert.com
       </Typography>
     </Paper>
   </Grid>
@@ -240,16 +240,16 @@ const TransportationSection = () => {
       }}
     >
       <Typography variant="h6" sx={{ fontWeight: 700, mb: 1 }}>
-        Amanda Lee
+        Pastor David Kalasira
       </Typography>
       <Typography sx={{ color: "text.secondary", mb: 1 }}>
-        Event Coordination
+       Table Reservation
       </Typography>
       <Typography sx={{ fontWeight: 600 }}>
-        📞 +1 (905) 555-9012
+        📞 +1 (437) 232-4417
       </Typography>
       <Typography sx={{ fontWeight: 600 }}>
-        ✉️ amanda@example.com
+        ✉️ Reservations@mamaconcert.com
       </Typography>
     </Paper>
   </Grid>
