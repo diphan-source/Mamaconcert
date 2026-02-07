@@ -166,7 +166,7 @@ const TransportationSection = () => {
               For More Information {" "}
               <Typography
                 component="span"
-                sx={{ color: "#1e40af", fontWeight: 900 , frontSize:"2.5rem"}}
+                sx={{ color: "#1e40af", fontWeight: 900 , fontSize:"2.5rem"}}
               >
                 &amp;
               </Typography>{" "}
