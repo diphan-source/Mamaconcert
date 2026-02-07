@@ -172,9 +172,28 @@ const TransportationSection = () => {
                 textTransform: "uppercase",
               }}
             >
-              For More Information or Table Booking
+            
             </Typography>
-
+            <Typography
+              variant="body1"
+              sx={{
+                fontSize: "1.2rem",
+                color: "black",
+                maxWidth: "48rem",
+                mx: "auto",
+              }}
+            >
+              For More Information {" "}
+              <Typography
+                component="span"
+                sx={{ color: "#1e40af", fontWeight: 900 }}
+              >
+                or
+              </Typography>{" "}
+             Table Booking
+            </Typography>
+              
+  
 <Grid container spacing={4}>
   {/* Contact 1 */}
   <Grid item xs={12} md={4}>
@@ -223,7 +242,7 @@ const TransportationSection = () => {
         📞 +1 (437) 388-6384
       </Typography>
       <Typography sx={{ fontWeight: 600 }}>
-        ✉️ Reservations@mamaconcert.com
+        ✉️ reservations@mamaconcert.com
       </Typography>
     </Paper>
   </Grid>
@@ -249,7 +268,7 @@ const TransportationSection = () => {
         📞 +1 (437) 232-4417
       </Typography>
       <Typography sx={{ fontWeight: 600 }}>
-        ✉️ Reservations@mamaconcert.com
+        ✉️ reservations@mamaconcert.com
       </Typography>
     </Paper>
   </Grid>
