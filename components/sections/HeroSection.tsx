@@ -109,6 +109,17 @@ const HeroSection = () => {
               TORONTO PAVILION  <br />
               190 RAILSIDE RD , NORTH YORK, ON M3V 1A3
             </Typography>
+             <Typography
+              sx={{
+                fontWeight: 550,
+                fontSize: { xs: '0.8rem', md: '1.1rem' },
+                lineHeight: 1.4,
+                textShadow: '0 2px 4px rgba(0,0,0,0.6)',
+              }}
+            >
+              Nothing Lasts Like <br />
+              A Mother's Love
+            </Typography>
           </MuiLink>
         </Box>
       </Container>
