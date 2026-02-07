@@ -153,6 +153,25 @@ const TransportationSection = () => {
               </Typography>{" "}
               with a Drink
             </Typography>
+            <br />
+              <Typography
+              variant="body1"
+              sx={{
+                fontSize: "2.5rem",
+                color: "black",
+                maxWidth: "48rem",
+                mx: "auto",
+              }}
+            >
+              For More Information {" "}
+              <Typography
+                component="span"
+                sx={{ color: "#1e40af", fontWeight: 900 }}
+              >
+                or
+              </Typography>{" "}
+             Table Booking
+            </Typography>
           </Box>
         </motion.div>
 
@@ -174,25 +193,7 @@ const TransportationSection = () => {
             >
             
             </Typography>
-            <Typography
-              variant="body1"
-              sx={{
-                fontSize: "1.2rem",
-                color: "black",
-                maxWidth: "48rem",
-                mx: "auto",
-              }}
-            >
-              For More Information {" "}
-              <Typography
-                component="span"
-                sx={{ color: "#1e40af", fontWeight: 900 }}
-              >
-                or
-              </Typography>{" "}
-             Table Booking
-            </Typography>
-              
+          
   
 <Grid container spacing={4}>
   {/* Contact 1 */}
