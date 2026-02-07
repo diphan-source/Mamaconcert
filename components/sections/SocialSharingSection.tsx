@@ -44,7 +44,8 @@ const SocialSharingSection = () => {
               lineHeight: 1.7,
             }}
           >
-            Let’s impact the community together through worship! Share our event poster online and invite your friends for a memorable Evening of praise, community, and powerful encounters.
+            Let’s impact the community together by Loving our Mothers, and through worship! <br />
+            Share Our Event Poster and invite your Frined for a memeorable Evening of Praise , Community and Powerful Encounters.
           </Typography>
 
           {/* CTA Buttons */}
