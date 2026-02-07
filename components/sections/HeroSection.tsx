@@ -89,16 +89,17 @@ const HeroSection = () => {
             {/* Second Line: CONCERT */}
             <Box component="div">CONCERT</Box>
           </Box>
-           <Typography
-              sx={{
-                fontWeight: 550,
-                fontSize: { xs: '0.8rem', md: '1.1rem' },
-                lineHeight: 2,
-                textShadow: '0 2px 4px rgba(0,0,0,0.6)',
-              }}
-            >
-              Nothing Lasts Like A Mother's Love
-            </Typography>
+         <Typography
+  sx={{
+    fontFamily: "'Dancing Script', cursive",
+    fontWeight: 600,
+    fontSize: { xs: '1rem', md: '1.4rem' },
+    lineHeight: 2,
+    textShadow: '0 2px 4px rgba(0,0,0,0.5)',
+  }}
+>
+  Nothing Lasts Like A Mother's Love
+</Typography>
           <br />
           {/*  */}
 
