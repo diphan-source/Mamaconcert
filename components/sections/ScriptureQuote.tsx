@@ -123,9 +123,9 @@ const ScriptureQuote = () => {
                 color: '#60a5fa',
               }}
             >
-              The God of glory
+             "Nothing Lasts Like A Mother's Love."
             </Box>
-            {' '}Nothing LASTS LIKE A MOTHER'S LOVE."
+            {' '}
           </Box>
           <Box
             component="span"
