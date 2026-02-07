@@ -138,7 +138,7 @@ const TransportationSection = () => {
             <Typography
               variant="body1"
               sx={{
-                fontSize: "1.125rem",
+                fontSize: "1.8rem",
                 color: "black",
                 maxWidth: "48rem",
                 mx: "auto",
@@ -168,7 +168,7 @@ const TransportationSection = () => {
                 component="span"
                 sx={{ color: "#1e40af", fontWeight: 900 }}
               >
-                or
+                &amp;
               </Typography>{" "}
              Table Booking
             </Typography>
