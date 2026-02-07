@@ -125,7 +125,7 @@ const ScriptureQuote = () => {
             >
               The God of glory
             </Box>
-            {' '}appeared to our father Abraham when he was in Mesopotamia, before he dwelt in Haran."
+            {' '}Nothing LASTS LIKE A MOTHER'S LOVE."
           </Box>
           <Box
             component="span"
@@ -136,7 +136,7 @@ const ScriptureQuote = () => {
               textAlign: 'center',
             }}
           >
-            Acts 7:2
+            Come celebrate Mother's Love
           </Box>
         </Box>
       </Container>
