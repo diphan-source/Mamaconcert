@@ -123,7 +123,7 @@ const ScriptureQuote = () => {
                 color: '#60a5fa',
               }}
             >
-             "Nothing Lasts Like A Mother's Love."
+             Nothing Lasts Like A Mother's Love."
             </Box>
             {' '}
           </Box>
