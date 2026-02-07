@@ -86,7 +86,7 @@
 "use client";
 
 import React, { useRef } from "react";
-import Grid from "@mui/material/Unstable_Grid2";
+import Grid from "@mui/material/Grid";
 import { motion, useInView } from "framer-motion";
 import {
   Box,
@@ -175,59 +175,85 @@ const TransportationSection = () => {
               For More Information or Table Booking
             </Typography>
 
- <Grid container spacing={4}>
-  <Grid xs={12} md={4}>
-    <Paper elevation={3} sx={{ p: 4, textAlign: "center", borderRadius: 3 }}>
-      <Typography variant="h6" fontWeight={700}>
+<Grid container spacing={4}>
+  {/* Contact 1 */}
+  <Grid item xs={12} md={4}>
+    <Paper
+      elevation={3}
+      sx={{
+        p: 4,
+        textAlign: "center",
+        borderRadius: 3,
+        height: "100%",
+      }}
+    >
+      <Typography variant="h6" sx={{ fontWeight: 700, mb: 1 }}>
         Sarah Johnson
       </Typography>
-      <Typography color="text.secondary">
+      <Typography sx={{ color: "text.secondary", mb: 1 }}>
         Table Reservations
       </Typography>
-      <Typography fontWeight={600}>
+      <Typography sx={{ fontWeight: 600 }}>
         📞 +1 (416) 555-1234
       </Typography>
-      <Typography fontWeight={600}>
+      <Typography sx={{ fontWeight: 600 }}>
         ✉️ sarah@example.com
       </Typography>
     </Paper>
   </Grid>
 
-  <Grid xs={12} md={4}>
-    <Paper elevation={3} sx={{ p: 4, textAlign: "center", borderRadius: 3 }}>
-      <Typography variant="h6" fontWeight={700}>
+  {/* Contact 2 */}
+  <Grid item xs={12} md={4}>
+    <Paper
+      elevation={3}
+      sx={{
+        p: 4,
+        textAlign: "center",
+        borderRadius: 3,
+        height: "100%",
+      }}
+    >
+      <Typography variant="h6" sx={{ fontWeight: 700, mb: 1 }}>
         Michael Brown
       </Typography>
-      <Typography color="text.secondary">
+      <Typography sx={{ color: "text.secondary", mb: 1 }}>
         VIP & Group Bookings
       </Typography>
-      <Typography fontWeight={600}>
+      <Typography sx={{ fontWeight: 600 }}>
         📞 +1 (647) 555-5678
       </Typography>
-      <Typography fontWeight={600}>
+      <Typography sx={{ fontWeight: 600 }}>
         ✉️ michael@example.com
       </Typography>
     </Paper>
   </Grid>
 
-  <Grid xs={12} md={4}>
-    <Paper elevation={3} sx={{ p: 4, textAlign: "center", borderRadius: 3 }}>
-      <Typography variant="h6" fontWeight={700}>
+  {/* Contact 3 */}
+  <Grid item xs={12} md={4}>
+    <Paper
+      elevation={3}
+      sx={{
+        p: 4,
+        textAlign: "center",
+        borderRadius: 3,
+        height: "100%",
+      }}
+    >
+      <Typography variant="h6" sx={{ fontWeight: 700, mb: 1 }}>
         Amanda Lee
       </Typography>
-      <Typography color="text.secondary">
+      <Typography sx={{ color: "text.secondary", mb: 1 }}>
         Event Coordination
       </Typography>
-      <Typography fontWeight={600}>
+      <Typography sx={{ fontWeight: 600 }}>
         📞 +1 (905) 555-9012
       </Typography>
-      <Typography fontWeight={600}>
+      <Typography sx={{ fontWeight: 600 }}>
         ✉️ amanda@example.com
       </Typography>
     </Paper>
   </Grid>
 </Grid>
-
           </Box>
         </motion.div>
 
