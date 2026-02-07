@@ -176,7 +176,7 @@ export const FAQ_DATA = [
     id: 5,
     question: "What time should I arrive?",
     answer:
-      "Doors open at 6:00 PM and the Concert starts at 7:00 PM. We recommend arriving early to get good seats and soak in the pre-service atmosphere.",
+      "Doors open at 5:00 PM and the Concert starts at 6:00 PM. We recommend arriving early to get good seats and soak in the pre-service atmosphere.",
   },
   {
     id: 6,
