@@ -138,7 +138,7 @@ const TransportationSection = () => {
             <Typography
               variant="body1"
               sx={{
-                fontSize: "1.8rem",
+                fontSize: "1.5rem",
                 color: "black",
                 maxWidth: "48rem",
                 mx: "auto",
@@ -147,7 +147,7 @@ const TransportationSection = () => {
               Reserve a Table for{" "}
               <Typography
                 component="span"
-                sx={{ color: "#1e40af", fontWeight: 700 }}
+                sx={{ color: "#1e40af", fontWeight: 650, fontSize:"1.5rem" }}
               >
                 10
               </Typography>{" "}
