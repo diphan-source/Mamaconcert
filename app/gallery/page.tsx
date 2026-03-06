@@ -1,8 +1,9 @@
 'use client';
 
 import React, { useState, useMemo, lazy, Suspense } from 'react';
-import { Box, Container, Typography, Chip } from '@mui/material';
+import { Box, Container, Typography, Chip, IconButton, Tooltip, Snackbar, Alert } from '@mui/material';
 import Image from 'next/image';
+import ShareRoundedIcon from '@mui/icons-material/ShareRounded';
 import Zoom from 'yet-another-react-lightbox/plugins/zoom';
 import Fullscreen from 'yet-another-react-lightbox/plugins/fullscreen';
 import galleryData from '../../gallery_by_year.json';
@@ -23,6 +24,7 @@ export default function GalleryPage() {
   );
   const [lightboxIndex, setLightboxIndex] = useState(-1);
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
+  const [toast, setToast] = useState({ open: false, message: '' });
 
   // Get years in descending order - memoized to prevent recalculation
   const years = useMemo(
@@ -43,6 +45,60 @@ export default function GalleryPage() {
       ),
     [selectedYear]
   );
+
+  const handleShareImage = async (event: React.MouseEvent, index: number) => {
+    event.stopPropagation();
+
+    const photo = photos[index];
+    const shareUrl = `${window.location.origin}${photo.src}`;
+    const shareTitle = `Mama Concert ${selectedYear} Gallery`;
+    const shareText = 'Check out this photo from Mama Concert by Pastor Judith Babirye.';
+
+    try {
+      if (navigator.share) {
+        let shared = false;
+
+        try {
+          const response = await fetch(shareUrl);
+          const blob = await response.blob();
+          const extension = photo.src.split('.').pop() || 'jpg';
+          const file = new File([blob], `open-heavens-${selectedYear}-${index + 1}.${extension}`, {
+            type: blob.type || 'image/jpeg',
+          });
+
+          if (navigator.canShare?.({ files: [file] })) {
+            await navigator.share({
+              title: shareTitle,
+              text: shareText,
+              files: [file],
+            });
+            shared = true;
+          }
+        } catch {
+          // Fall back to sharing URL if file-based share is not possible.
+        }
+
+        if (!shared) {
+          await navigator.share({
+            title: shareTitle,
+            text: shareText,
+            url: shareUrl,
+          });
+        }
+
+        setToast({ open: true, message: 'Share dialog opened.' });
+        return;
+      }
+
+      await navigator.clipboard.writeText(shareUrl);
+      setToast({ open: true, message: 'Image link copied. You can paste it into any social app.' });
+    } catch (error) {
+      if ((error as Error).name === 'AbortError') {
+        return;
+      }
+      setToast({ open: true, message: 'Unable to share this image right now.' });
+    }
+  };
 
   return (
     <Box
@@ -205,6 +261,27 @@ export default function GalleryPage() {
                 },
               }}
             >
+              <Tooltip title="Share image">
+                <IconButton
+                  aria-label={`Share image ${index + 1}`}
+                  onClick={(event) => handleShareImage(event, index)}
+                  sx={{
+                    position: 'absolute',
+                    top: 10,
+                    right: 10,
+                    zIndex: 3,
+                    backgroundColor: 'rgba(0, 0, 0, 0.55)',
+                    color: '#fff',
+                    border: '1px solid rgba(255,255,255,0.25)',
+                    '&:hover': {
+                      backgroundColor: 'rgba(0, 0, 0, 0.8)',
+                    },
+                  }}
+                >
+                  <ShareRoundedIcon fontSize="small" />
+                </IconButton>
+              </Tooltip>
+
               <Image
                 src={photo.src}
                 alt={photo.alt}
@@ -297,6 +374,22 @@ export default function GalleryPage() {
           />
         </Suspense>
       )}
+
+      <Snackbar
+        open={toast.open}
+        autoHideDuration={2600}
+        onClose={() => setToast({ open: false, message: '' })}
+        anchorOrigin={{ vertical: 'bottom', horizontal: 'center' }}
+      >
+        <Alert
+          onClose={() => setToast({ open: false, message: '' })}
+          severity="info"
+          variant="filled"
+          sx={{ width: '100%' }}
+        >
+          {toast.message}
+        </Alert>
+      </Snackbar>
     </Box>
   );
 }
