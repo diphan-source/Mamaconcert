@@ -24,9 +24,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body style={{ margin: 0, padding: 0 }}>
+        <a href="#main-content" className="skip-link">Skip to main content</a>
         <ThemeRegistry>
           <Header />
-          <main>{children}</main>
+          <main id="main-content">{children}</main>
           <Footer />
         </ThemeRegistry>
       </body>
