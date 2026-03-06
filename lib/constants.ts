@@ -7,10 +7,10 @@ export const EVENT_INFO = {
   date: "November 21, 2026",
   year: 2026,
   venue: {
-    name: "Metro Convention Centre",
-    address: "255 Front St W, Toronto, ON M5V 2W6",
-    fullAddress: "255 Front St W, Toronto, ON M5V 2W6",
-    googleMapsUrl: "https://maps.google.com/?q=255+Front+St+W,+Toronto,+ON+M5V+2W6",
+    name: "Toronto Pavilion",
+    address: "190 Railside Rd, North York, ON M3A 1A3",
+    fullAddress: "190 Railside Rd, North York, ON M3A 1A3",
+    googleMapsUrl: "https://www.bing.com/ck/a?!&&p=01fc7897ba8cddc7b4d0079154d2dfd8dc4b8693e52dfb295e2de765d2993870JmltdHM9MTc3Mjc1NTIwMA&ptn=3&ver=2&hsh=4&fclid=02b60778-e714-6df1-2524-113ce6d16c9b&u=a1L21hcHM_Jm1lcGk9NTd-TWFwc0Fuc3dlcn5FbWJlZGRlZH5EaXJlY3Rpb25fQnV0dG9uJnR5PTAmcnRwPXBvcy40My42MzY3NjA3MTE2Njk5Ml8tNzkuMzg4MTM3ODE3MzgyODFfX1dhdGVyZnJvbnQlMjBDb21tdW5pdGllcy1UaGUlMjBJc2xhbmQlMkMlMjBUb3JvbnRvJTJDJTIwT250YXJpb19fc19-cG9zLjQzLjczOTQ1Xy03OS4zMjQzMDFfXzE5MCUyMFJhaWxzaWRlJTIwUmQlMkMlMjBOb3J0aCUyMFlvcmslMkMlMjBPTiUyME0zQSUyMDFBM19fZV8mbW9kZT1kJnY9MiZzVj0x",
   },
   timing: {
     doorsOpen: "6:00 PM",
@@ -18,7 +18,7 @@ export const EVENT_INFO = {
   },
   contact: {
     phone: "(437) 232-4417 / (437)388-6384",
-    email: "info@mamaconcert.com",
+    email: "judithbabiryefoundation@gmail.com",
   },
   ticketUrl: "/tickets",
   livestreamUrl: "https://youtube.com/hopraise/live",
