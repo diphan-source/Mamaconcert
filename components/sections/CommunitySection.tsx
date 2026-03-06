@@ -64,7 +64,6 @@ const CommunitySection = () => {
 
               <Button
                 href={EVENT_INFO.ticketUrl}
-                external
                 variant="primary"
                 size="lg"
               >
