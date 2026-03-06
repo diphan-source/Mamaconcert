@@ -132,8 +132,8 @@ const Footer = () => {
                 LOCATION
             </Typography>
             <Typography variant="h6" sx={{ fontWeight: 400 }}>
-               Metro Convention Centre,<br />
-               255 Front ST W, Toronto , ON M5V 2W6
+               Toronto Pavilion,<br />
+               190 Railside Rd, North York, ON M3A 1A3
             </Typography>
         </Box>
 
