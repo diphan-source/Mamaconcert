@@ -18,7 +18,7 @@ export const EVENT_INFO = {
     phone: "(437) 232-4417 / (437)388-6384",
     email: "info@mamaconcert.com",
   },
-  ticketUrl: "https://form.typeform.com/to/Ij072pJa?typeform-source=helicon-dinosaur-2nx4.squarespace.com",
+  ticketUrl: "/tickets",
   livestreamUrl: "https://youtube.com/hopraise/live",
 };
 
@@ -214,12 +214,10 @@ export const SOCIAL_LINKS = {
 // Navigation Links
 export const NAV_LINKS = [
   { id: 1, label: "Home", href: "/" },
-  { id: 2, label: "Artists", href: "/ArtistsSection" },
+  { id: 2, label: "Artists", href: "/#featuring" },
   { id: 3, label: "Gallery", href: "/gallery" },
-  { id: 4, label: "Schedule", href: "#schedule" },
-  { id: 5, label: "Transportation", href: "/TransportationSection" },
-  { id: 6, label: "Get Tickets", href: EVENT_INFO.ticketUrl, external: true },
-  { id: 7, label: "Volunteer", href: "#volunteer" },
+  { id: 4, label: "Schedule", href: "/#about" },
+  { id: 5, label: "Get Tickets", href: EVENT_INFO.ticketUrl },
 ];
 
 // Footer Links
@@ -244,8 +242,8 @@ export const FOOTER_SECTIONS = [
     id: 3,
     title: "Mama Concert Resources",
     links: [
-      { id: 1, label: "Get Involved", href: "#volunteer" },
-      { id: 2, label: "Transportation", href: "#transportation" },
+      { id: 1, label: "Get Involved", href: "/#about" },
+      { id: 2, label: "Event Gallery", href: "/#experience" },
       { id: 3, label: "Livestream", href: EVENT_INFO.livestreamUrl, external: true },
     ],
   },
