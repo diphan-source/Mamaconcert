@@ -75,8 +75,6 @@ const FinalCTA = () => {
                 <Box
                   component="a"
                   href={EVENT_INFO.venue.googleMapsUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
                   sx={{
                     display: 'inline-flex',
                     alignItems: 'center',
@@ -111,7 +109,6 @@ const FinalCTA = () => {
               <Box sx={{ display: 'flex', flexDirection: { xs: 'column', sm: 'row' }, alignItems: 'center', justifyContent: 'center', gap: 2 }}>
                 <Button
                   href={EVENT_INFO.ticketUrl}
-                  external
                   variant="primary"
                   size="lg"
                   className="w-full sm:w-auto min-w-[250px]" // Button component might still rely on className or props, need to check Button.tsx. Assuming implementation plan meant usage of button. 
