@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import { Box, Button, IconButton } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
 import { EVENT_INFO } from '@/lib/constants';
+import { homeButtonBaseSx } from '@/lib/buttonStyles';
 
 const Banner = () => {
   const [isVisible, setIsVisible] = useState(true);
@@ -112,27 +113,18 @@ const Banner = () => {
         {/* CTA Button */}
         <Button
           href={EVENT_INFO.ticketUrl}
-          target="_blank"
-          rel="noopener noreferrer"
           variant="contained"
           sx={{
+            ...homeButtonBaseSx,
             backgroundColor: '#000',
             color: 'white',
-            fontWeight: 800,
-            fontSize: { xs: '0.9rem', md: '1rem' },
-            px: { xs: 3, md: 4 },
-            py: { xs: 1.2, md: 1.5 },
-            textTransform: 'uppercase',
-            letterSpacing: '0.5px',
-            borderRadius: 0,
             whiteSpace: 'nowrap',
             order: { xs: 2, md: 2 },
-            boxShadow: '0 4px 12px rgba(0, 0, 0, 0.3)',
-            transition: 'all 0.2s ease',
+            minHeight: { xs: 44, md: 48 },
             '&:hover': {
+              transform: 'translateY(-2px)',
               backgroundColor: '#1a1a1a',
-              boxShadow: '0 6px 16px rgba(0, 0, 0, 0.4)',
-              transform: 'scale(1.02)',
+              boxShadow: '0 12px 28px rgba(0, 0, 0, 0.35)',
             },
           }}
         >
