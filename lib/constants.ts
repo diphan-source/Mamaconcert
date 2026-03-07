@@ -13,15 +13,15 @@ export const EVENT_INFO = {
     googleMapsUrl: "https://www.bing.com/ck/a?!&&p=01fc7897ba8cddc7b4d0079154d2dfd8dc4b8693e52dfb295e2de765d2993870JmltdHM9MTc3Mjc1NTIwMA&ptn=3&ver=2&hsh=4&fclid=02b60778-e714-6df1-2524-113ce6d16c9b&u=a1L21hcHM_Jm1lcGk9NTd-TWFwc0Fuc3dlcn5FbWJlZGRlZH5EaXJlY3Rpb25fQnV0dG9uJnR5PTAmcnRwPXBvcy40My42MzY3NjA3MTE2Njk5Ml8tNzkuMzg4MTM3ODE3MzgyODFfX1dhdGVyZnJvbnQlMjBDb21tdW5pdGllcy1UaGUlMjBJc2xhbmQlMkMlMjBUb3JvbnRvJTJDJTIwT250YXJpb19fc19-cG9zLjQzLjczOTQ1Xy03OS4zMjQzMDFfXzE5MCUyMFJhaWxzaWRlJTIwUmQlMkMlMjBOb3J0aCUyMFlvcmslMkMlMjBPTiUyME0zQSUyMDFBM19fZV8mbW9kZT1kJnY9MiZzVj0x",
   },
   timing: {
-    doorsOpen: "6:00 PM",
-    eventStart: "7:00 PM",
+    doorsOpen: "5:00 PM",
+    eventStart: "6:00 PM",
   },
   contact: {
     phone: "(437) 232-4417 / (437)388-6384",
     email: "judithbabiryefoundation@gmail.com",
   },
   ticketUrl: "/tickets",
-  livestreamUrl: "https://youtube.com/hopraise/live",
+  livestreamUrl: "https://youtu.be/rFkIRkGvMcA?si=74y9p4sUnizdaI3r",
 };
 
 // Featured Artists
