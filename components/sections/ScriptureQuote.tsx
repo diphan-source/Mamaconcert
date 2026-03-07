@@ -58,7 +58,7 @@ const ScriptureQuote = () => {
             }}
           >
             <ReactPlayer
-              src={'https://music.youtube.com/channel/UC25q0tHU8ahS1R6fd3nUJXg'}
+              src={'https://music.youtube.com/channel/UC25q0tHU8ahS1R6fd3nUJXg?si=U8STD6roJsSXD2ml'}
               width={'100%'}
               height={'100%'}
               playing={isPlaying}
@@ -136,7 +136,7 @@ const ScriptureQuote = () => {
               textAlign: 'center',
             }}
           >
-            Acts 7:2
+          
           </Box>
         </Box>
       </Container>
