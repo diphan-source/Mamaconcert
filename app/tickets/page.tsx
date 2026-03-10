@@ -160,12 +160,12 @@ export default function TicketsPage() {
             value={quantity}
             onChange={(event) => {
               const value = Number(event.target.value);
-              if (Number.isNaN(value)) return;
-              setQuantity(Math.min(Math.max(value, 1), 10));
+              if (!Number.isFinite(value)) return;
+              setQuantity(Math.max(Math.floor(value), 1));
             }}
-            inputProps={{ min: 1, max: 10 }}
+            inputProps={{ min: 1, step: 1 }}
             fullWidth
-            placeholder="Enter ticket quantity (1-10)"
+            placeholder="Enter ticket quantity"
             sx={{
               mb: 2,
               "& input": {
