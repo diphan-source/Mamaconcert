@@ -6,7 +6,10 @@ const TICKET_PRICE = 100;
 export async function POST(request: Request) {
   try {
     const body = (await request.json()) as { quantity?: number };
-    const quantity = Math.min(Math.max(Number(body.quantity ?? 1), 1), 10);
+    const parsedQuantity = Number(body.quantity ?? 1);
+    const quantity = Number.isFinite(parsedQuantity)
+      ? Math.max(Math.floor(parsedQuantity), 1)
+      : 1;
     const amount = (quantity * TICKET_PRICE).toFixed(2);
 
     const accessToken = await getPaypalAccessToken();
