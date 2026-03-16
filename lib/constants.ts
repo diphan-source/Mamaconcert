@@ -51,13 +51,24 @@ export const FEATURED_ARTISTS = [
     bio: "Dynamic gospel duo",
   },
 
-  // {
-  //   id: 6,
-  //   name: "Pastor Tope Akinsiku",
-  //   shortName: "PTA",
-  //   image: "./images/event-img/artist6.jpg", // Woman speaker
-  //   bio: "Passionate worship minister",
-  // },
+  {
+    id: 5,
+    name: "Jackie Ssenyonjo",
+    image: "./images/event-img/IMG_0963.JPG", // Woman speaker
+    bio: "Gospel artist and songwriter from Canada",
+  },
+  {
+    id: 6,
+    name: "Sseku Martin",
+    image: "./images/event-img/artist6.jpg", // Woman speaker
+    bio: "Gospel artist and songwriter from Canada",
+  },
+  {
+    id: 7,
+    name: "Alice Kyasimire",
+    image: "./images/event-img/artist6.jpg", // Woman speaker
+    bio: "Gospel artist and songwriter from Canada",
+  },
 ];
 
 // Event Features
