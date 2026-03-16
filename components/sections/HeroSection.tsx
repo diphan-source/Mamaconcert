@@ -52,7 +52,7 @@ const HeroSection = () => {
         }}
       >
         <video
-          src="/images/event-img/video.mp4"
+          src="/images/event-img/mamaconcert2025.mp4"
           autoPlay
           muted
           loop
