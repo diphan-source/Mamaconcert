@@ -54,19 +54,19 @@ export const FEATURED_ARTISTS = [
   {
     id: 5,
     name: "Jackie Ssenyonjo",
-    image: "./images/event-img/IMG_0963.JPG", // Woman speaker
+    image: "./images/event-img/jackie.jpeg", // Woman speaker
     bio: "Gospel artist and songwriter from Canada",
   },
   {
     id: 6,
     name: "Sseku Martin",
-    image: "./images/event-img/artist6.jpg", // Woman speaker
+    image: "./images/event-img/sseku.jpeg", // Woman speaker
     bio: "Gospel artist and songwriter from Canada",
   },
   {
     id: 7,
     name: "Alice Kyasimire",
-    image: "./images/event-img/artist6.jpg", // Woman speaker
+    image: "./images/event-img/Alice.jpeg", // Woman speaker
     bio: "Gospel artist and songwriter from Canada",
   },
 ];
