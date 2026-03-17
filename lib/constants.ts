@@ -20,7 +20,9 @@ export const EVENT_INFO = {
     phone: "(437) 232-4417 / (437)388-6384",
     email: "judithbabiryefoundation@gmail.com",
   },
-  ticketUrl: "/tickets",
+  ticketUrl:
+    "https://www.eventbrite.ca/e/maama-concert-2026-tickets-1985203922372?aff=oddtdtcreator",
+  donationUrl: process.env.NEXT_PUBLIC_PAYPAL_DONATION_URL || "",
   livestreamUrl: "https://youtube.com/mamaconcert/live",
 };
 
@@ -229,7 +231,7 @@ export const NAV_LINKS: NavLink[] = [
   { id: 2, label: "Artists", href: "/#featuring" },
   { id: 3, label: "Gallery", href: "/gallery" },
   { id: 4, label: "Schedule", href: "/#about" },
-  { id: 5, label: "Get Tickets", href: EVENT_INFO.ticketUrl },
+  { id: 5, label: "Get Tickets", href: EVENT_INFO.ticketUrl, external: true },
 ];
 
 // Footer Links

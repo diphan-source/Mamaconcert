@@ -1,6 +1,6 @@
 ## Mama Concert Website
 
-Marketing and ticketing site for **Mama Concert by Pastor Judith Babirye**.
+Marketing site for **Mama Concert by Pastor Judith Babirye**.
 
 ## Local Development
 
@@ -22,16 +22,13 @@ npm run start
 npm run lint
 ```
 
-## PayPal Ticket Booking Setup
+## Ticket And Donation Setup
 
-The ticket checkout page is at `/tickets` and uses PayPal.
+Tickets are handled on Eventbrite. The homepage can optionally show a separate PayPal donation button, and `/tickets` redirects visitors straight to Eventbrite.
 
 1. Copy `.env.example` to `.env.local`.
-2. Add your PayPal credentials:
-   - `NEXT_PUBLIC_PAYPAL_CLIENT_ID`
-   - `PAYPAL_CLIENT_ID`
-   - `PAYPAL_CLIENT_SECRET`
-   - `PAYPAL_ENV` (`sandbox` for testing, `live` for production)
+2. Add your PayPal donation URL if you want the donation button visible:
+   - `NEXT_PUBLIC_PAYPAL_DONATION_URL`
 3. Optional but recommended for metadata/share URLs:
    - `NEXT_PUBLIC_SITE_URL=https://your-domain.com`
 4. Restart the dev server after updating environment variables.
@@ -39,15 +36,12 @@ The ticket checkout page is at `/tickets` and uses PayPal.
 ## Key Routes
 
 - `/` home page
-- `/tickets` PayPal checkout
+- `/tickets` redirect to Eventbrite registration
 - `/gallery` event gallery
 - `/share-MC` poster sharing page with OG metadata
 
 ## Notes
 
 - Poster assets for sharing are in `public/images/posters/`.
-- PayPal server endpoints:
-  - `POST /api/paypal/create-order`
-  - `POST /api/paypal/capture-order`
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

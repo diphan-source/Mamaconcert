@@ -186,17 +186,33 @@ const HeroSection = () => {
               gap: 2,
               justifyContent: 'center',
               flexDirection: { xs: 'column', sm: 'row' },
+              flexWrap: 'wrap',
             }}
           >
             <Button
               component="a"
               href={EVENT_INFO.ticketUrl}
+              target="_blank"
+              rel="noopener noreferrer"
               sx={{
                 ...homeButtonPrimaryOnDarkSx,
               }}
             >
               Get Tickets
             </Button>
+            {EVENT_INFO.donationUrl ? (
+              <Button
+                component="a"
+                href={EVENT_INFO.donationUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                sx={{
+                  ...homeButtonSecondaryOnDarkSx,
+                }}
+              >
+                Donate With PayPal
+              </Button>
+            ) : null}
             <Button
               component="a"
               href="/gallery"
