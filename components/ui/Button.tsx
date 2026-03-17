@@ -14,6 +14,9 @@ const Button: React.FC<ButtonProps> = ({
   disabled = false,
   sx,
 }) => {
+  const isExternalHref = Boolean(
+    href && (/^https?:\/\//.test(href) || href.startsWith("mailto:") || href.startsWith("tel:"))
+  );
 
   const getVariantStyles = () => {
     switch (variant) {
@@ -86,7 +89,7 @@ const Button: React.FC<ButtonProps> = ({
   };
 
   if (href) {
-    if (external) {
+    if (external || isExternalHref) {
       return (
         <MuiButton
           href={href}
