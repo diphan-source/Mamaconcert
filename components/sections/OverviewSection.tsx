@@ -139,7 +139,7 @@ const OverviewSection = () => {
               >
                 To build a nationally recognized platform that celebrates and
                 empowers Black African women in healthcare, strengthens cultural
-                identity, and inspires future generations toward leadership and
+                identity, and inspires future generations towards leadership and
                 service.
               </Typography>
             </Box>
