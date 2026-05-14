@@ -4,6 +4,7 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import { defaultOgImage, siteConfig } from "@/lib/seo";
 import "./globals.css";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.siteUrl),
@@ -64,7 +65,15 @@ export default function RootLayout({
           <main id="main-content">{children}</main>
           <Footer />
         </ThemeRegistry>
+        <Script
+        async
+        strategy="afterInteractive"
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4993564914656680"
+        crossOrigin="anonymous"
+      />
       </body>
+       {/* Google AdSense Script */}
+      
     </html>
   );
 }
