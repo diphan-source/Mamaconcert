@@ -48,12 +48,12 @@ export const FEATURED_ARTISTS = [
     image: "/images/event-img/Lev.jpg", // Man praying/worship
     bio: "Gospel artist and songwriter from Uganda",
   },
-  {
-    id: 4,
-    name: "Esther and Ezekiel",
-    image: "/images/event-img/Esther-and-Ezekiel.webp", // Man singing
-    bio: "Dynamic gospel duo",
-  },
+  // {
+  //   id: 4,
+  //   name: "Esther and Ezekiel",
+  //   image: "/images/event-img/Esther-and-Ezekiel.webp", // Man singing
+  //   bio: "Dynamic gospel duo",
+  // },
   {
     id: 5,
     name: "Jackie Ssenyonjo",
