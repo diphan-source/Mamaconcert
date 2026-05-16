@@ -121,8 +121,8 @@ const HeroSection = () => {
             {/* Third Line: judith babirye */}
           <Box
   fontFamily="'Parisienne', cursive"
-  // fontSize={{ xs: "42px", md: "82px" }}
-  fontWeight={500}
+  fontSize={{ xs: "30px", md: "70px" }}
+  fontWeight={300}
   sx={{
     color: "#fff",
     textShadow: "0px 2px 10px rgba(0,0,0,0.3)",
