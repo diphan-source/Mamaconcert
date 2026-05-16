@@ -118,13 +118,16 @@ const HeroSection = () => {
 
             {/* Second Line: CONCERT */}
             <Box component="div">CONCERT</Box>
+            {/* Third Line: judith babirye */}
           <Box
   fontFamily="'Parisienne', cursive"
-  fontSize={{ xs: "42px", md: "82px" }}
+  // fontSize={{ xs: "42px", md: "82px" }}
   fontWeight={500}
   sx={{
     color: "#fff",
-    textShadow: "0px 2px 10px rgba(0,0,0,0.3)"
+    textShadow: "0px 2px 10px rgba(0,0,0,0.3)",
+    lineHeight: 1.0,
+    letterSpacing:'-1'
   }}
 >
   by Judith Babirye
