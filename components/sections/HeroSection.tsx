@@ -118,6 +118,9 @@ const HeroSection = () => {
 
             {/* Second Line: CONCERT */}
             <Box component="div">CONCERT</Box>
+           <Box component="span" fontFamily="'Great Vibes', cursive" fontSize="24px">
+  by Judith Babirye
+</Box>
           </Box>
 
           {/* Venue */}

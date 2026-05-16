@@ -67,8 +67,6 @@ export default function Home() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4993564914656680"
-     crossOrigin="anonymous"></script>
       <HeroSection />
       <MissionSection />
       <OverviewSection />
